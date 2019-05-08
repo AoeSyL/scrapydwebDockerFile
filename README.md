@@ -19,9 +19,14 @@ This Docker contains the following pip packages:
 
 If you need pip package, not in it; you need to build Docker
 
-1、Write the package name to requirements.txt
+1. CD docker
+```
+cd docker
+```
 
-2、BUILD
+2、Write the package name to requirements.txt
+
+3、BUILD
 
 ```
 docker build -t {docker_name}:{version} .
