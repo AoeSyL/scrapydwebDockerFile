@@ -1,0 +1,17 @@
+scrapy == 1.6.0
+scrapyd 
+Twisted == 18.9.0
+scrapydweb
+APScheduler >= 3.5.3
+flask >= 1.0.2
+Flask-APScheduler >= 1.11.0
+flask-compress >= 1.4.0
+Flask-SQLAlchemy >= 2.3.2
+logparser == 0.8.1
+requests >= 2.21.0
+setuptools >= 40.6.3
+six >= 1.12.0
+SQLAlchemy >= 1.2.15
+selenium
+fake-useragent
+lxml
