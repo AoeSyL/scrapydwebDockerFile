@@ -1,3 +1,7 @@
+### 在Dockerfile 第7 8 行中的 pip install 使用了国内豆瓣源 用户可自行更换 
+### Dockerfile at line 7 and 8 used DouBan source data i the pip install 
+
+
 This Docker contains the following pip packages:
 * scrapy == 1.6.0
 * scrapyd 
@@ -83,5 +87,4 @@ systemctl restart docker
 ###### vim /code/scrapydweb_settings_v8.py (reload scrapydweb)
 ###### vim /usr/local/lib/python3.7/site-packages/scrapyd/default_scrapyd.conf (reload scrapyd)
 ###### vim /tmp/default_scrapyd.conf (reload docker)
-
 
