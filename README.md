@@ -19,7 +19,8 @@ This Docker contains the following pip packages:
 
 If you need pip package, not in it; you need to build Docker
 
-1. CD docker
+1、CD docker
+
 ```
 cd docker
 ```
