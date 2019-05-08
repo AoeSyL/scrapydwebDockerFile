@@ -70,12 +70,12 @@ systemctl restart docker
 ```
 
 ### TIPS
-## before docker image build
-# default_scrapyd.conf --->  scrapyd config
-# default_settings.py  --->  scrapyweb config
-## docker running you can enter container
-vim /code/scrapydweb_settings_v8.py (reload scrapydweb)
-vim /usr/local/lib/python3.7/site-packages/scrapyd/default_scrapyd.conf (reload scrapyd)
-vim /tmp/default_scrapyd.conf (reload docker)
+#### before docker image build
+###### default_scrapyd.conf --->  scrapyd config
+###### default_settings.py  --->  scrapyweb config
+### docker running you can enter container
+###### vim /code/scrapydweb_settings_v8.py (reload scrapydweb)
+###### vim /usr/local/lib/python3.7/site-packages/scrapyd/default_scrapyd.conf (reload scrapyd)
+###### vim /tmp/default_scrapyd.conf (reload docker)
 
 
